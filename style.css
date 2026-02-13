@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #23435c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #2f4156;
+}
+
+.container {
+    background: #c8d9e6;
+    padding: 30px;
+    border-radius: 12px;
+    width: 380px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+    background-color: #f5efeb;
+}
+
+button {
+    margin-top: 18px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #2f4156;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.svg {
+    position: fixed;
+    width: 100vw;
+    z-index: -1;
+    top: -33.5vw;
+    left: -12.5vw;
+}
+
