@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Success</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
 </head>
 <body>
 
@@ -12,7 +12,7 @@
     <p>Check your email for the zip file.</p>
 </div>
 <div class="svg">
-    <img src="m.svg">
+    <img src="{{url_for('static',filename='m.svg')}}">
 </div>
 
 </body>
