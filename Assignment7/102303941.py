@@ -1,7 +1,7 @@
 import sys
 import os
 import yt_dlp
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 from pydub import AudioSegment
 
 
